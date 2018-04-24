@@ -86,12 +86,5 @@ apps.py: settings.py里面注册app的时候需要使用到。一般不推荐这
 models.py: 写模型的地方
 views.py: 写处理业务逻辑的地方
 
-##### 迁移数据库
-
-```
-python manage.py makemigrations
-python manage.py migrate
-```
-
 
 
