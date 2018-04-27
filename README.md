@@ -4,3 +4,5 @@
 
 [Django模型](https://github.com/FireFang2001/Django/blob/master/django2.md)
 
+[cookie](https://github.com/FireFang2001/Django/blob/master/cookies.md)
+
