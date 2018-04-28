@@ -8,3 +8,5 @@
 
 [cookie](https://github.com/FireFang2001/Django/blob/master/cookies.md)
 
+[Django auth模块](https://github.com/FireFang2001/Django/blob/master/login.md)
+
