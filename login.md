@@ -20,20 +20,15 @@ def register(request):
     if request.method == 'POST':
         name = request.POST.get('name')
         password = request.POST.get('password')
-        email = 'a@a.com'
+        email = request.POST.get('email')
         user = authenticate(username=name, password=password)  # 判断用户是否存在
         if user:
             return render(request, 'register.html')
         User.objects.create_user(name, email, password)  # 创建用户保存在auth_user表中
-        # password = make_password(request.POST.get('password'))
-        # User.objects.create(username=name, password=password)
         return redirect('/u/login/')  # 跳转到登录页面
 ```
 
 注册的用户数据会保存在auth_user表中，密码会加密保存。
-
-![](C:\Users\a\Desktop\user.png)
-
 
 
 #####登录
