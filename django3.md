@@ -77,7 +77,7 @@ class Student:
 
 ```python
 stu = Student.objects.first()
-stu.stu_grade
+stu.s_grade
 ```
 
 如下是通过班级获取学生信息（通过一获取多的数据）：
